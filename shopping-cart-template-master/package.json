@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --open --config ./build/webpack.dev.config.js",
+    "test": "jest",
     "build": "webpack --config ./build/webpack.build.config.js",
     "lint": "eslint \"src/**/*.js\""
   },
